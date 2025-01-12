@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recombinationSelector</title>
+    <style>
+        /* progeny Selector 可以是子孙的后代*/
+        ol li a{
+            color: pink;
+        }
+        .header,
+        .next {
+            color: gray;
+        }
+        .click {
+            text-decoration: none;
+        }
+        /* 当鼠标经过时 */
+        .click:hover {
+            color: red;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- Progeny selector -->
+     <h4>后代选择器 progeny selector</h4>
+     <ol>
+        <li><a href="#">后代选择器1</a></li>
+        <li><a href="#">后代选择器2</a></li>
+        <li><a href="#">后代选择器3</a></li>
+     </ol>
+
+     <h4>并行选择器 parallel selector</h4>
+     <ul>
+        <li><a href="#" class="header">后代选择器1</a></li>
+        <li><a href="#" class="next">后代选择器2</a></li>
+        <li><a href="#">后代选择器3</a></li>
+     </ul>
+
+     <a href="https://www.baidu.com" class="click">百度百科</a>
+
+</body>
+</html>
