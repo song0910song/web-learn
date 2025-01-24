@@ -188,7 +188,7 @@ li {
     height: 68px;
     margin-top: 10px;
     background-color: #fff;
-    box-shadow: 5px 1px 10px gray;
+    box-shadow: 2px 1px 5px rgb(203, 202, 202);
 }
 
 .goods h3 {
@@ -240,4 +240,41 @@ li {
     line-height: 68px;
     color: #00a4ff;
     font-size: 14px;
+}
+
+/* goods_list style */
+.goods_list {
+    margin-top: 38px;
+    width: 1200px;
+    /* height: 3003px; */
+    /* background-color: pink; */
+}
+
+.goods-header {
+    height: 46px;
+}
+
+.goods-header h3 {
+    float: left;
+    padding-top: 6px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.goods-header a {
+    float: right;
+    padding: 18px 32px 0 0;
+    font-size: 12px;
+    color: #bfbfbf;
+}
+
+.stores ul {
+    width: 1215px;
+}
+
+.stores li {
+    float: left;
+    width: 229px;
+    height: 271px;
+    padding-right: 14px;
+    padding-top: 14px;
 }
