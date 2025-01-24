@@ -246,7 +246,7 @@ li {
 .goods_list {
     margin-top: 38px;
     width: 1200px;
-    /* height: 3003px; */
+    height: 560px;
     /* background-color: pink; */
 }
 
@@ -273,8 +273,78 @@ li {
 
 .stores li {
     float: left;
-    width: 229px;
-    height: 271px;
+    width: 227px;
+    height: 270px;
     padding-right: 14px;
     padding-top: 14px;
 }
+
+.stores li a {
+    display: block;
+    /* height: 118px; */
+    background-color: #fff;
+}
+
+.stores li a h4 {
+    margin: 20px 20px;
+    font-size: 14px;
+    color: #000;
+}
+.info span {
+    margin-left: 22px;
+    font-size: 12px;
+    color: #ff7c2d;
+}
+.info {
+    /* margin: 10px 22px; */
+    font-size: 12px;
+    color: #bfbfbf;
+}
+
+.footer {
+    height: 415px;
+    margin-top: 45px;
+    background-color: #fff;
+}
+
+.footer-left {
+    float: left;
+    width: 450px;
+}
+
+.footer-left img {
+    margin: 35px 23px 25px 23px;
+}
+
+.footer-left .text {
+    margin-left: 23px;
+    font-size: 12px;
+    color: #000;
+}
+
+.footer-right {
+    float: right;
+    width: 600px;
+}
+
+.footer-right h3 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.footer-right ul li {
+    margin: 10px 0; 
+    font-size: 12px;
+}
+
+.one {
+    float: left;
+    /* width: 145px; */
+    margin-right: 145px;
+}
+
+.last {
+    float: left;
+    /* margin-right: 145px; */
+}
+
