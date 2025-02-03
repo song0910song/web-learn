@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position案例一</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            position: relative;
+            margin: 100px auto;
+            width: 520px;
+            height: 280px;
+            background-color: pink;
+        }
+        .pre,
+        .next{
+            position: absolute;
+            display: block;
+            top: 50%;
+            margin-top: -10px;
+            width: 20px;
+            height: 30px;
+            text-decoration: none;
+            text-align: center;
+            line-height: 30px;
+            background: rgba(0, 0, 0, 0.3);
+        }
+        .pre {
+            border-radius: 0% 40px 40px 0%;
+        }
+        .next {
+            right: 0;
+            border-radius: 20px 0% 0% 20px;
+        }
+        .select {
+            position: absolute;
+            height: 13px;
+            width: 70px;
+            left: 50%;
+            bottom: 15px;
+            margin-left: -35px;
+            border-radius: 15px;
+            background: rgba(0, 0, 0, 0.3);
+        }
+        .select li {
+           float: left; /* 横向排列 */
+           width: 8px;
+           height: 8px;
+           margin: 3px;
+           border-radius: 50%;
+           list-style: none;
+           background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="" alt="">
+        <a href="#" class="pre">&lt;</a>
+        <a href="#" class="next">&gt;</a>
+        <ul class="select">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+</html>
