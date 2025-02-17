@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        /* 子绝父相 */
+        .box {
+            position: relative;
+            width: 800px;
+            height: 1200px;
+            margin: 0 auto;
+            background-color: blue;
+        }
+        /* 侧边栏 */
+        .sides {
+            position: fixed;
+            left: 50%; /* 水平居中 */
+            top: 50%;
+            margin-top: -100px;
+            margin-left: 405px;
+            width: 50px;
+            height: 200px;
+            background-color: pink;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="sides"></div>
+    </div>
+</body>
+</html>

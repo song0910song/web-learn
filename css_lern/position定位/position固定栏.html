@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>固定栏小技巧</title>
+    <style>
+        .w {
+            margin: auto;
+            width: 800px;
+            height: 1400px;
+            background-color: pink;
+        }
+        .fixed {
+            /* fixed 固定定位 不占有原先位置 */
+            position: fixed;
+            width: 50px;
+            height: 150px;
+            /* 1、浏览器宽度的一半 */
+            left: 50%;
+            /* 2、利用margin调至版心宽度一半的距离 */
+            margin-left: 405px;
+            background-color: blue; 
+        }
+    </style>
+</head>
+<body>
+    <div class="fixed"></div>
+    <div class="w">版心宽度800px</div>
+</body>
+</html>

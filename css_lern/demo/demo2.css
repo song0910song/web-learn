@@ -1,0 +1,36 @@
+h1 {
+    font-weight: 400;
+    text-align: center;
+}
+
+a {
+    /* text-decoration 属性规定添加到文本的修饰。可以给文本添加下划线、删除线、上划线等。*/
+    text-decoration: none; 
+}
+a:hover{
+    background-color: yellow;
+    color: red;
+
+}
+
+p {
+    /* text-indent 属性用来指定文本的第一行的缩进，通常是将段落的首行缩进。 */
+    text-indent: 2em;
+}
+
+.pic {
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+    font-style: normal;
+    font-weight: 100;
+    color: gray;
+    font-size: 14px;
+}
+
+.foot {
+    font-size: 10px;
+    color: gray;
+}

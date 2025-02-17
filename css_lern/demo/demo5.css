@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.box {
+    width: 350px;
+    height: 500px;
+    margin: 100px auto;
+    background-color: #fff;
+}
+
+.picture {
+    display: inline-block;
+    width: 100%;
+}
+
+.review {
+    height: 70px;
+    font-size: 14px;
+    padding: 0 30px;
+    margin: 30px 0;
+}
+
+.apprise {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #b0b0b0;
+    padding: 0 30px;
+}
+
+.info {
+    margin-top: 20px;
+    padding: 0 30px;
+}
+
+.info h4 {
+    display: inline-block;
+    font-weight: 400;
+}
+
+.info span {
+    color: #ff6700;
+    
+}
+
+.info em {
+    margin: 0 6px 0 20px;
+    color: gray;
+    font-style: normal;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪类选择器例子</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('fonts/icomoon.eot?59adxk');
+            src: url('fonts/icomoon.eot?59adxk#iefix') format('embedded-opentype'),
+                url('fonts/icomoon.ttf?59adxk') format('truetype'),
+                url('fonts/icomoon.woff?59adxk') format('woff'),
+                url('fonts/icomoon.svg?59adxk#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+
+        div {
+            position: relative;
+            width: 200px;
+            height: 30px;
+            border: 2px solid red;
+        }
+
+        div::before { 
+            position: absolute;
+            font-family: "icomoon";
+            content: "\e906";
+            right: 5px;
+            top: 6px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>
